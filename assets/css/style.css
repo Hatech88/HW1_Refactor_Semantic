@@ -8,6 +8,9 @@ body {
     background-color: #d9dcd6;
 }
 
+
+
+/* Setting up the selection choices in the header with the right font family, padding and colors*/
 .selection {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -32,6 +35,8 @@ body {
     font-size: 20px;
 }
 
+
+/* Do we need this since it's a value of none*/
 .selection nav ul {
     list-style-type: none;
 }
@@ -41,11 +46,14 @@ body {
     margin-left: 25px;
 }
 
+
+/* the nav list items color.... look to add it somewhere else*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* the main articles paragraph font size.... look to add it somewhere else*/
 p {
     font-size: 16px;
 }
@@ -59,11 +67,14 @@ p {
     background-position: center;
 }
 
+/* the first iamge in the main content and the third*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+
+/* The middle image in the main content*/
 .float-right {
     float: right;
     margin-left: 25px;
@@ -108,7 +119,8 @@ p {
     max-width: 150px;
 }
 
-.search-engine-optimization {
+/* Main content section margin and padding setup*/
+.main-articles {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -117,51 +129,20 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
+/* main content image in the Seatch Engine Opt article*/
+.main-articles img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
-    max-height: 200px;
-}
 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
+.main-articles h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer*/ 
 .signature {
     padding: 30px;
     clear: both;

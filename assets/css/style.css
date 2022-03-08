@@ -18,15 +18,22 @@ body {
     color: #ffffff;
 }
 
+
+
+/* The main name Horiseon*/
 .selection h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+
+/*changing the corlor of the second part of the main name seo*/
 .selection h1 .seo {
     color: #d9dcd6;
 }
 
+
+/* setting up the padding, font, and margin for the navigation links*/
 .selection nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -58,6 +65,8 @@ p {
     font-size: 16px;
 }
 
+
+/* Main image setup*/
 .hero {
     height: 800px;
     width: 100%;
